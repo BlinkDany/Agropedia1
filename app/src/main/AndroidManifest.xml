@@ -23,6 +23,15 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Entrada2"
+            android:exported="true"/>
+        <activity
+            android:name=".Entrada3"
+            android:exported="true"/>
+        <activity
+            android:name=".Prueba"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
