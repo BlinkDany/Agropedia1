@@ -50,10 +50,10 @@
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="48dp"
-                android:layout_marginEnd="0dp"
-                android:src="@drawable/carrito"
                 android:layout_marginStart="80dp"
-                />
+                android:layout_marginEnd="0dp"
+                android:onClick="SiguientePantallaCarrito"
+                android:src="@drawable/carrito" />
         </LinearLayout>
 
         <TextView
@@ -126,6 +126,7 @@
                                 android:layout_height="35dp"
                                 android:src="@drawable/agregar2"
                                 android:layout_marginStart="80dp"
+                                android:onClick="SiguientePantalla"
                                 />
                         </LinearLayout>
 
