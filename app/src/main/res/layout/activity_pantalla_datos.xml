@@ -7,23 +7,24 @@
     tools:context=".PantallaDatos">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="405dp"
-        android:layout_height="733dp"
+        android:id="@+id/imageView6"
+        android:layout_width="408dp"
+        android:layout_height="724dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@drawable/fondo" />
+        app:srcCompat="@drawable/fondo2" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="414dp"
         android:layout_height="286dp"
+        android:background="#00FFFFFF"
         android:gravity="center"
-        android:text="hola juan"
+        android:text="Agropedia"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +39,7 @@
         android:id="@+id/textView6"
         android:layout_width="411dp"
         android:layout_height="52dp"
-        android:background="#FFFFFF"
+        android:background="#00FFFFFF"
         android:gravity="center"
         android:text="Por favor llene los datos restantes"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -54,7 +55,7 @@
         android:id="@+id/textView4"
         android:layout_width="411dp"
         android:layout_height="35dp"
-        android:background="#FFFFFF"
+        android:background="#00FFFFFF"
         android:gravity="center"
         android:text="Estamos por terminar"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -69,7 +70,7 @@
     <EditText
         android:id="@+id/txtDirecion"
         android:layout_width="355dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:text="Direccion"
@@ -84,7 +85,7 @@
     <EditText
         android:id="@+id/txtCiudad"
         android:layout_width="355dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:text="Ciudad"
@@ -99,7 +100,7 @@
     <EditText
         android:id="@+id/txtCelular"
         android:layout_width="355dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="number"
         android:text="Celular"
@@ -114,7 +115,7 @@
     <EditText
         android:id="@+id/txtProvincia"
         android:layout_width="355dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:text="Provincia"
@@ -129,9 +130,9 @@
     <Button
         android:id="@+id/btnContinuar"
         android:layout_width="189dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:text="Continuar"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -144,7 +145,7 @@
         android:layout_width="191dp"
         android:layout_height="45dp"
         android:text="Omitir"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
