@@ -23,7 +23,7 @@
         android:layout_width="414dp"
         android:layout_height="286dp"
         android:gravity="center"
-        android:text="Agropedia"
+        android:text="hola juan"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
